@@ -9,7 +9,7 @@
 'use strict';
 
 var exec = require('sync-exec');
-const cp = require("child_process");
+var cp = require("child_process");
 module.exports = function(grunt) {
 
   grunt.registerMultiTask('po2mo', 'Compile .po files into binary .mo files with msgfmt.', function() {
